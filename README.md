@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on performing sentiment analysis on social media posts using Natural Language Processing (NLP) and Machine Learning.  
 The goal is to classify text into Positive, Negative, or Neutral sentiment.
 
@@ -21,13 +21,13 @@ The project includes data cleaning, text preprocessing, feature engineering usin
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 With millions of tweets and online posts generated daily, understanding public opinion at scale is challenging.  
-This project helps automate opinion mining by analyzing the sentiment behind social media text.
+ This project helps automate opinion mining by analyzing the sentiment behind social media text.
 
 ---
 
-## 🔍 Objectives
+## Objectives
 - Preprocess and clean raw tweet text  
 - Apply NLP techniques for feature extraction  
 - Train ML models for sentiment classification  
@@ -36,7 +36,7 @@ This project helps automate opinion mining by analyzing the sentiment behind soc
 
 ---
 
-## 🧠 Features
+## Features
 - Complete text cleaning pipeline  
 - Stopword removal, tokenization, stemming  
 - TF-IDF vectorization  
@@ -48,7 +48,7 @@ This project helps automate opinion mining by analyzing the sentiment behind soc
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 Programming Language:  
 - Python
@@ -62,3 +62,27 @@ Libraries & Tools:
 - Jupyter Notebook / Google Colab  
 
 ---
+
+## Installation & Setup
+
+### Install dependencies
+
+```bash
+pip install nltk scikit-learn pandas numpy matplotlib
+
+### Upload the Dataset (Google Colab)
+
+from google.colab import files
+files.upload()
+
+### Run the notebook
+
+Open and execute all cells in 
+sentiment_analysis.ipynb
+
+## Future Enhancements
+
+- Deploy using Streamlit or Flask
+- Add BERT for advanced sentiment classification
+- Add interactive dashboard
+
